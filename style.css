@@ -1,0 +1,249 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Squada+One&display=swap');
+
+
+* {margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+body {background-color: white;
+font-family: Poppins;}
+
+header {
+   background-color: #454C31;
+  color: white; 
+  position: sticky;
+} 
+
+
+header h1 {text-align: center;
+  padding-top: 20px;
+padding-bottom: 30px;
+font-family: Squada One;
+font-size: 50px;}
+
+ nav {display: flex;} 
+
+ nav li {display: inline-block;
+        list-style-type: none;
+        text-align: center;
+        color: white;
+         font-family: Poppins;}
+
+nav li a {text-decoration: none;
+      display: flex;
+     font-size: 1,5rem;
+        list-style-type: none;
+        text-align: center;
+        color: white;
+        padding: 5px;
+        padding-left: 200px;}
+
+.texto {text-align: center;
+padding-top: 30px;
+padding-bottom: 20px;
+margin-left: 10%;
+margin-right: 10%}
+
+.texto2 {display: block;
+         height: 100px;
+        width: auto;
+        background-color: #9DA38C;
+         padding-top: 20px;
+        text-align: center;
+        font-family: Squada One;
+        font-size: 20px;} 
+
+.caja1 {width: 100%;
+height:350px;
+background-color: #DCE1CD}
+
+.donatella { float: left;
+    position: absolute;
+  margin-top: -55%;
+margin-left: 200px;
+margin-right: 10px;}
+
+.bio { display: right;
+    position: absolute;
+      margin-top: -55%;
+      margin-left: 50%;
+      margin-right: 13%;
+      font-family: Squada One;
+      font-size: 20px;}
+.bio p {font-family: Poppins;}
+
+.cajatrabajo {width: 100%;
+height:350px;
+background-color: #DCE1CD;
+margin-top: 10%;}
+}
+.caja2 {width: 100%;
+height:350px;
+background-color: #DCE1CD;
+margin-top: 10%}
+
+.trabajos { display: right;
+      margin-top: 8%;
+      margin-left: 10%;
+      margin-right: 50%;
+      font-family: Poppins;
+      font-size: 20px;}
+
+.titulo {display: block;
+  margin-top: 8%;
+margin-left: auto;
+margin-left: 15%;
+width: 70%;
+text-align: center;}
+.titulo p {margin-left: -10%;
+width: 120%;
+margin-top: 3%}
+
+.esquema {display: block;
+  margin-left: auto;
+margin-right: auto;}
+
+.parrafo {display: block;
+  margin-top: 40px;
+margin-left: auto;
+margin-left: auto;
+width: auto;
+text-align: center;
+padding-bottom: 20px;}
+
+.franja {width: auto;
+height: 70px;
+display: block;
+background-color: #9DA38C;
+text-align: right;
+font-size: 20px;
+padding-top: 10px;
+padding-right: 90px;
+font-family: Squada One;}
+
+.santiago {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.autor { position: absolute;
+      margin-top: -340px;
+      margin-left: 725px;
+      margin-right: 250px;
+      font-family: Squada One;
+      font-size: 20px;}
+.autor p {font-family: Poppins;}
+
+ .slide {
+                position: relative;
+                box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+                margin-top: 26px;
+            }
+            .slide-inner {
+                position: relative;
+                overflow: hidden;
+                width: 50%;
+
+                height: calc( 600px + 4em);
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .slide-open:checked + .slide-item {
+                position: static;
+                opacity: 100;
+            }
+            .slide-item {
+                position: absolute;
+                opacity: 0;
+                -webkit-transition: opacity 0.6s ease-out;
+                transition: opacity 0.6s ease-out;
+            }
+            .slide-item img {
+                display: block;
+                height: 700px;
+                margin-left: auto;
+                margin-right: auto;
+                width: auto;
+                margin-top: 20px;
+                align-items: center;
+            }
+            .slide-control {
+                background: rgba(0, 0, 0, 0.28);
+                border-radius: 50%;
+                color: #fff;
+                cursor: pointer;
+                display: none;
+                font-size: 40px;
+                height: 40px;
+                line-height: 35px;
+                position: absolute;
+                top: 50%;
+                -webkit-transform: translate(0, -50%);
+                cursor: pointer;
+                -ms-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+                text-align: center;
+                width: 40px;
+                z-index: 10;
+            }
+            .slide-control.prev {
+                left: 2%;
+            }
+            .slide-control.next {
+                right: 2%;
+            }
+            .slide-control:hover {
+                background: rgba(0, 0, 0, 0.8);
+                color: #aaaaaa;
+            }
+            #slide-1:checked ~ .control-1,
+            #slide-2:checked ~ .control-2,
+            #slide-3:checked ~ .control-3 {
+                display: block;
+            }
+            .slide-indicador {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                bottom: 2%;
+                left: 0;
+                right: 0;
+                text-align: center;
+                z-index: 10;
+            }
+            .slide-indicador li {
+                display: inline-block;
+                margin: 0 5px;
+            }
+            .slide-circulo {
+                color: #828282;
+                cursor: pointer;
+                display: block;
+                font-size: 35px;
+            }
+            .slide-circulo:hover {
+                color: #aaaaaa;
+            }
+            #slide-1:checked ~ .control-1 ~ .slide-indicador 
+                 li:nth-child(1) .slide-circulo,
+            #slide-2:checked ~ .control-2 ~ .slide-indicador 
+                  li:nth-child(2) .slide-circulo,
+            #slide-3:checked ~ .control-3 ~ .slide-indicador 
+                  li:nth-child(3) .slide-circulo {
+                color: #428bca;
+            }
+            #titulo {
+                width: 100%;
+                position: absolute;
+                padding: 0px;
+                margin: 0px auto;
+                text-align: center;
+                font-size: 27px;
+                color: rgba(255, 255, 255, 1);
+                font-family: 'Open Sans', sans-serif;
+                z-index: 9999;
+                text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
+                     -1px 0px 2px rgba(255, 255, 255, 0);}
+
